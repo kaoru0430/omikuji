@@ -1,0 +1,173 @@
+@font-face {
+  font-family:'あんずもじ';
+  src: url('./APJapanesefont.ttf');
+}
+
+@media screen and (max-device-width: 480px){
+	/* 0px以上で適用する内容 */
+	body{
+  font-family:'あんずもじ';
+  color: #665a47;
+  background-color: #FFCC66;
+  width: 100%;
+}
+
+.content_wrapper{
+  background-color: #FFCC66;
+  width: 100%;
+  margin:0 auto;
+}
+
+.omikuji_top{
+  width: 100%%;
+  margin: 0 auto;
+}
+
+.gazou{
+  width:  40%;
+  height: auto;
+  margin: 0 auto;
+}
+
+h1{
+  text-align: center;
+  font-size: 500%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+h2{
+  font-size: 60px;
+  text-align: center;
+}
+h3{
+  font-size: 18px;
+}
+
+.star{
+  display: block;
+  font-size: 300%;
+  width: 50%;
+  margin: 0 auto;
+  padding: 15px 0 10px 0;
+}
+
+p{
+  text-align: center;
+}
+
+form{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.nyuryoku{
+	font-size: 25px;}
+.nyuryoku input{
+	font-size: 25px}
+
+img{
+  display: block;
+  width: 250px;
+  text-align: center;
+}
+
+.lbt{
+  text-align: center;
+}
+
+.lfood{
+  font-size: 250%;
+}
+.food{
+  width: 35%;
+  height: 35%;
+  margin: 0 auto;
+}
+
+.sbt{
+  color: white;
+  background-color: #f3981d;
+  font-family:'あんずもじ';
+  font-size: 25px;
+  /* font-weight: bold; */
+  height: 50px;
+  width: 150px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+
+}
+	}
+
+@media screen and (min-device-width: 481px){
+	/* 480px以上で適用する内容 */
+
+body{
+   font-family:'あんずもじ';
+   color: #665a47;
+   background-color: #FFCC66;
+   width: 100%;
+ }
+
+.content_wrapper{
+  background-color: #FFCC66;
+  width: 500px;
+  margin:0 auto;
+}
+
+.omikuji_top{
+  width: 500px;
+  margin: 0 auto;
+}
+
+h1{
+  width: 500px;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+h2{
+  text-align: center;
+  font-size: 25px;
+}
+h3{
+  font-size: 15px;
+}
+.star{
+  display: block;
+  width: 160px;
+  margin: 0 auto;
+  padding: 15px 0 10px 0;
+}
+
+
+.gazou{
+  height: 220px;
+  width: 120px;
+  margin: 0 auto;
+}
+
+p{
+  text-align: center;
+}
+
+img{
+  display: block;
+  height: 200px;
+  width: 250px;
+  text-align: center;
+}
+
+.food{
+  width: 20%;
+  height: 20%;
+  margin: 0 auto;
+}
+
+.lbt{
+  text-align: center;
+}
+
+	}

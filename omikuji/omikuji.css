@@ -1,0 +1,180 @@
+@font-face {
+  font-family:'あんずもじ';
+  src: url('./APJapanesefont.ttf');
+}
+
+@media screen and (max-device-width: 480px){
+	/* 0px以上で適用する内容 */
+	body{
+  font-family:'あんずもじ';
+  color: #665a47;
+  background-color: #ffcc66;
+  width: 100%;
+}
+
+@font-face {
+  font-family:'あんずもじ';
+  src: url('./APJapanesefont.ttf');
+}
+
+body{
+  font-family:'あんずもじ';
+  color: #665a47;
+  background-color: #ffcc66;
+  width: 100%;
+}
+
+.content_wrapper{
+  background-color: #FFCC66;
+  width: 100%;
+  margin:0 auto;
+}
+
+.omikuji_top{
+  width: 100%%;
+  margin: 0 auto;
+}
+
+.gazou{
+  width:  70%;
+  height: auto;
+  margin: 0 auto;
+}
+
+h1{
+  font-size: 500%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p{
+  font-size: 250%
+  text-align: center;
+}
+
+form{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+}
+
+.nyuryoku{
+	font-size: 50px;}
+.nyuryoku input{
+	font-size: 50px}
+
+img{
+  display: block;
+  width: 70%;
+  text-align: center;
+}
+
+.lbt{
+  text-align: center;
+}
+
+.sbt{
+  color: white;
+  background-color: #f3981d;
+  font-family:'あんずもじ';
+  font-size: 25px;
+  font-weight: bold;
+  /* font-weight: bold; */
+  height: 150px;
+  width: 250px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+
+}
+	}
+
+@media screen and (min-device-width: 481px){
+	/* 480px以上で適用する内容 */
+	body{
+  font-family:'あんずもじ';
+  color: #665a47;
+  background-color: black;
+  width: 100%;
+}
+
+@font-face {
+  font-family:'あんずもじ';
+  src: url('./APJapanesefont.ttf');
+}
+
+body{
+  font-family:'あんずもじ';
+  color: #665a47;
+  background-color: #ffcc66;
+  width: 100%;
+}
+
+.content_wrapper{
+  background-color: #FFCC66;
+  width: 960px;
+  margin:0 auto;
+}
+
+.omikuji_top{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.gazou{
+  width:  250px;
+  height: auto;
+  margin: 0 auto;
+}
+
+h1{
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p{
+  text-align: center;
+}
+
+form{
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.nyuryoku{
+	font-size: 25px;}
+.nyuryoku input{
+	font-size: 25px}
+
+img{
+  display: block;
+  width: 250px;
+  text-align: center;
+}
+img:hover{
+	transform: rotate(30deg);
+	}
+
+.lbt{
+  text-align: center;
+}
+
+.sbt{
+  color: white;
+  background-color: #f3981d;
+  font-family:'あんずもじ';
+  font-size: 25px;
+  /* font-weight: bold; */
+  height: 50px;
+  width: 150px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+
+}
+	}
